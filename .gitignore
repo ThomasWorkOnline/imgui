@@ -26,6 +26,22 @@ ipch
 *.VC.db
 *.VC.VC.opendb
 
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+## Visual Studio Code
+.vscode
+
+# Makefile
+Makefile
+makefile
+
+# Xcode
+**.xcworkspace
+**.xcodeproj
+
 ## Commonly used CMake directories
 /build*/
 
