@@ -46,3 +46,9 @@ project "ImGui"
 		optimize "Full"
 		runtime "Release"
 		symbols "Off"
+
+    filter { ("configurations:Release" or "configurations:Dist") and "system:windows" }
+		flags
+		{
+			"LinkTimeOptimization"
+		}
