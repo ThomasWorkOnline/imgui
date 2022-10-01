@@ -33,7 +33,6 @@ project "ImGui"
 		pic "On"
 
 	filter "configurations:Debug"
-		optimize "Off"
 		runtime "Debug"
 		symbols "On"
 
